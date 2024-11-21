@@ -1,0 +1,2 @@
+const controladorAluno = new AlunoControlador();
+

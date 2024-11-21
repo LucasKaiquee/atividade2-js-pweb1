@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disciplina</title>
+</head>
+<body style="display: flex; flex-direction: column; width: 200px; gap: 10px;">
+    <input type="text" placeholder="código" id="cod">
+    <input type="text" placeholder="Nome" id="nome">
+
+    <button onclick="controladorDisciplina.inserir()">Cadastrar</button>
+
+    <a href="index.html">Cadastrar Aluno</a>
+
+    <ol id="listaDisciplinas"></ol>
+
+    <script src="modelo/disciplina.js"></script>
+    <script src="repositorio/disciplina_repositorio.js"></script>
+    <script src="servico/disciplina_service.js"></script>
+    <script src="controlador/disciplina_controlador.js"></script>
+    <script src="scriptDisciplina.js"></script>
+</body>
+</html>
